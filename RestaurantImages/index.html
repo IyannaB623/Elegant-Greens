@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This app helps youtubers pick the best background color for their videos">
+    	<meta name="keywords" content="youtube, background, lights">
+
+		<title>Film Picker</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Monoton&family=Oleo+Script&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1>Iyanna's Film Picks</h1>
+
+		
+		<section>
+			<video autoplay muted loop id="bealeVideo" onclick="this.play();">
+				<source src="Screen Recording 2022-02-22 at 8.33.20 AM.mov       " type="video/mp4">
+			</video>
+
+			<video autoplay muted loop id="pantherVideo" onclick="this.play();">
+				<source src="Screen Recording 2022-02-22 at 9.29.26 AM.mov" type="video/mp4">
+			</video>
+
+			<video autoplay muted loop id="ponyoVideo" onclick="this.play();">
+				<source src="Screen Recording 2022-02-22 at 10.13.51 AM.mov" type="video/mp4">
+			</video>
+
+			<video autoplay muted loop id="princessVideo" onclick="this.play();">
+				<source src="Screen Recording 2022-02-22 at 10.16.28 AM.mov" type="video/mp4">
+			</video>
+
+		</section>
+
+		<section class="filmcover">
+
+			<section>
+				<img id="beale" src="img/download-2.jpg" alt="If Beale Street Could Talk film cover">
+				<h2>If Beale Street Could Talk</h2>
+			</section>
+
+			<section id="panther">
+				<img src="img/download-4.jpg" alt="Black Panther film cover">
+				<h2>Black Panther</h2>
+			</section>
+
+
+			<section id="ponyo">
+				<img src="img/download-7.jpg" alt="Ponyo film cover">
+				<h2>Ponyo</h2>
+			</section>
+
+	
+			<section id="princess">
+				<img src="img/download-6.jpg" alt="Princess and The Frog film cover">
+				<h2>The Princess and the Frog</h2>
+			</section>
+
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
