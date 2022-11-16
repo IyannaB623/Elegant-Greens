@@ -3,7 +3,7 @@
 
 A restaurant layout using HTML and CSS. What is different about this project is that it is using floats not flex.
 
-	:x: NO FLEX ZONE
+  :x: NO FLEX ZONE
   :white_check_mark: ALL FLOATS
   
   This project was great practice using floats although float is not as common as flex. In the instance a project needs to be converted from float to flex etc. this demonstrates that capability. 
